@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Currency Converter</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./img/Asset 1@3x 1.svg" />
+      </div>
+      <ul class="nav-body">
+        <li><a class="li1" href="#">Bank</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Investments</a></li>
+        <li><a href="#">Insurance</a></li>
+        <li><a href="#">Mobile</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Entertainment</a></li>
+      </ul>
+      <div class="nav-buttons">
+        <button>Login</button>
+      </div>
+    </nav>
+    <main class="container">
+      <h1>Currency converter online</h1>
+
+      <article>
+        <div class="a-block">
+          <div class="a-item">
+            <h4>I have</h4>
+            <ul class="ul-from">
+              <li class="li-from">RUB</li>
+              <li class="li-from">USD</li>
+              <li class="li-from">EUR</li>
+              <li class="li-from">GBP</li>
+            </ul>
+            <div class="input">
+              <form class="from-form">
+                <input class="from-input" type="text" required />
+              </form>
+              <p class="from-p"></p>
+            </div>
+          </div>
+          <div class="a-item">
+            <h4>I want to buy</h4>
+            <ul class="ul-to">
+              <li class="li-to">RUB</li>
+              <li class="li-to">USD</li>
+              <li class="li-to">EUR</li>
+              <li class="li-to">GBP</li>
+            </ul>
+            <div class="input">
+              <form>
+                <input class="to-input" type="number" required readonly/>
+              </form>
+              <p class="to-p"></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
